@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installation de Velux - Futur Toiture | Expert Couvreur Alès</title>
+  <meta name="description" content="Installation Velux à Alès. Partenaire agréé. Fenêtres de toit standard ou sur mesure. Étanchéité garantie. Devis gratuit.">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/index-phGN1PUu.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-deep-blue: 228 85% 8%;
+      --brand-royal-blue: 218 100% 45%;
+      --brand-light-blue: 195 100% 55%;
+      --brand-tech-cyan: 180 100% 45%;
+      --brand-anthracite: 210 25% 15%;
+      --brand-medium-gray: 214 15% 45%;
+      --brand-light-gray: 216 20% 97%;
+      --futur-gradient-primary: linear-gradient(135deg, hsl(228 85% 8%) 0%, hsl(218 100% 45%) 50%, hsl(195 100% 55%) 100%);
+      --futur-gradient-accent: linear-gradient(90deg, hsl(218 100% 45%) 0%, hsl(180 100% 45%) 100%);
+      --shadow-glow: 0 0 24px hsl(180 100% 45% / 0.3);
+      --shadow-hover: 0 16px 40px -8px hsl(218 100% 45% / 0.25);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: hsl(var(--brand-anthracite)); }
+    .service-hero {
+      min-height: 480px;
+      background: linear-gradient(135deg, hsl(228 85% 8%) 0%, hsl(218 100% 45%) 60%, hsl(180 100% 45%) 100%);
+      position: relative; display: flex; align-items: center; overflow: hidden; padding-top: 80px;
+    }
+    .service-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 70% 50%, hsl(180 100% 45% / 0.18) 0%, transparent 60%),
+                  radial-gradient(ellipse at 20% 80%, hsl(218 100% 45% / 0.15) 0%, transparent 50%);
+    }
+    .service-hero::after {
+      content: ''; position: absolute; width: 600px; height: 600px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.07); top: -150px; right: -100px;
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 1440px; margin: 0 auto; padding: 60px 2rem; text-align: center; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.12); backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.2); border-radius: 100px; padding: 6px 16px;
+      color: #fff; font-size: 13px; font-weight: 500; margin-bottom: 24px; animation: fadeInDown 0.6s ease;
+    }
+    .hero-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: hsl(180 100% 45%); animation: pulse-dot 2s infinite; }
+    @keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.6;transform:scale(1.3)} }
+    .service-hero h1 {
+      font-family: 'Montserrat', sans-serif; font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 900; color: #fff; line-height: 1.1; letter-spacing: -0.03em;
+      margin-bottom: 20px; animation: fadeInUp 0.7s ease;
+    }
+    .service-hero h1 span { color: hsl(180 100% 55%); }
+    .hero-desc { font-size: 1.15rem; color: rgba(255,255,255,0.85); max-width: 580px; line-height: 1.7; margin: 0 auto 36px auto; animation: fadeInUp 0.8s ease; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; animation: fadeInUp 0.9s ease; }
+    .btn-hero-primary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #fff; color: hsl(var(--brand-royal-blue));
+      font-weight: 700; font-size: 1rem; padding: 14px 28px; border-radius: 14px;
+      text-decoration: none; transition: all 0.3s ease; box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    }
+    .btn-hero-primary:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0,0,0,0.2); }
+    .btn-hero-outline {
+      display: inline-flex; align-items: center; gap: 10px;
+      border: 2px solid rgba(255,255,255,0.4); color: #fff;
+      font-weight: 600; font-size: 1rem; padding: 12px 26px; border-radius: 14px;
+      text-decoration: none; transition: all 0.3s ease; backdrop-filter: blur(8px);
+    }
+    .btn-hero-outline:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.7); }
+    .hero-stats { display: flex; gap: 32px; margin-top: 48px; flex-wrap: wrap; justify-content: center; animation: fadeInUp 1s ease; }
+    .hero-stat { text-align: center; }
+    .hero-stat .num { font-family: 'Montserrat', sans-serif; font-size: 2rem; font-weight: 900; color: hsl(180 100% 55%); }
+    .hero-stat .label { font-size: 0.8rem; color: rgba(255,255,255,0.7); margin-top: 2px; }
+    @keyframes fadeInUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes fadeInDown { from{opacity:0;transform:translateY(-20px)} to{opacity:1;transform:translateY(0)} }
+    .site-nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(255,255,255,0.97); backdrop-filter: blur(20px);
+      border-bottom: 1px solid hsl(var(--brand-royal-blue) / 0.1);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    }
+    .nav-inner { max-width: 1440px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+    .nav-logo img { height: 50px; width: auto; }
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a { color: hsl(var(--brand-anthracite)); text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: hsl(var(--brand-royal-blue)); }
+    .nav-cta { display: flex; align-items: center; gap: 12px; }
+    .btn-nav-call {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, #22c55e, #059669);
+      color: #fff; font-weight: 600; font-size: 0.9rem;
+      padding: 10px 20px; border-radius: 12px; text-decoration: none; transition: all 0.3s;
+    }
+    .btn-nav-call:hover { transform: scale(1.05); }
+    .btn-nav-devis {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--futur-gradient-primary);
+      color: #fff; font-weight: 600; font-size: 0.9rem;
+      padding: 10px 20px; border-radius: 12px; text-decoration: none; transition: all 0.3s;
+    }
+    .btn-nav-devis:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+    .page-content { max-width: 1440px; margin: 0 auto; padding: 80px 2rem; }
+    @media (min-width: 1280px) {
+      .container { max-width: 1440px !important; }
+    }
+    .features-section { margin-bottom: 80px; }
+    .section-tag {
+      display: flex; align-items: center; gap: 8px;
+      width: fit-content; margin: 0 auto 16px auto;
+      background: hsl(var(--brand-royal-blue) / 0.08); color: hsl(var(--brand-royal-blue));
+      border: 1px solid hsl(var(--brand-royal-blue) / 0.2); border-radius: 100px; padding: 5px 14px;
+      font-size: 12px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
+    }
+    .section-title {
+      font-family: 'Montserrat', sans-serif; font-size: clamp(1.8rem, 3vw, 2.6rem);
+      font-weight: 800; color: hsl(var(--brand-anthracite)); letter-spacing: -0.02em; margin-bottom: 14px; line-height: 1.2;
+      text-align: center;
+    }
+    .section-title span { background: var(--futur-gradient-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .section-desc { font-size: 1.05rem; color: hsl(var(--brand-medium-gray)); max-width: 560px; line-height: 1.7; margin: 0 auto 48px auto; text-align: center; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+    .feature-card {
+      background: linear-gradient(145deg, #fff 0%, hsl(216 20% 98%) 100%);
+      border: 1px solid hsl(var(--brand-royal-blue) / 0.1); border-radius: 20px; padding: 28px;
+      transition: all 0.3s ease; position: relative; overflow: hidden;
+    }
+    .feature-card::before {
+      content: ''; position: absolute; top: 0; left: 0; height: 3px; width: 100%;
+      background: var(--futur-gradient-accent);
+    }
+    .feature-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+    .feature-icon {
+      width: 48px; height: 48px; border-radius: 12px; background: var(--futur-gradient-accent);
+      display: flex; align-items: center; justify-content: center; margin-bottom: 0; flex-shrink: 0;
+      box-shadow: 0 8px 20px hsl(218 100% 45% / 0.25);
+    }
+    .feature-icon svg { width: 24px; height: 24px; color: #fff; fill: #fff; }
+    .feature-card-header { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+    .feature-card-header h3 { margin-bottom: 0; }
+    .feature-card h3 { font-family: 'Montserrat', sans-serif; font-size: 1.1rem; font-weight: 700; color: hsl(var(--brand-anthracite)); margin-bottom: 10px; }
+    .feature-card p { font-size: 0.9rem; color: hsl(var(--brand-medium-gray)); line-height: 1.65; }
+    .process-section {
+      background: linear-gradient(135deg, hsl(228 85% 8%) 0%, hsl(218 100% 38%) 100%);
+      border-radius: 28px; padding: 64px 48px; margin-bottom: 80px; position: relative; overflow: hidden;
+    }
+    .process-section::before {
+      content: ''; position: absolute; width: 400px; height: 400px; border-radius: 50%;
+      background: radial-gradient(circle, hsl(180 100% 45% / 0.1) 0%, transparent 70%);
+      top: -100px; right: -100px;
+    }
+    .process-section .section-title { color: #fff; }
+    .process-section .section-title span { -webkit-text-fill-color: hsl(180 100% 65%); }
+    .process-section .section-desc { color: rgba(255,255,255,0.75); }
+    .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, 220px); justify-content: center; gap: 20px; position: relative; z-index: 1; }
+    .step-card {
+      background: rgba(255,255,255,0.07); backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.12); border-radius: 18px; padding: 24px; text-align: center; transition: all 0.3s;
+    }
+    .step-card:hover { background: rgba(255,255,255,0.13); transform: translateY(-4px); }
+    .step-number {
+      width: 44px; height: 44px; border-radius: 50%; background: var(--futur-gradient-accent);
+      color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1rem;
+      display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;
+    }
+    .step-card h4 { font-family: 'Montserrat', sans-serif; font-size: 0.95rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .step-card p { font-size: 0.82rem; color: rgba(255,255,255,0.7); line-height: 1.55; }
+    .cta-section {
+      background: linear-gradient(145deg, hsl(216 20% 97%) 0%, #fff 100%);
+      border: 1px solid hsl(var(--brand-royal-blue) / 0.12); border-radius: 28px; padding: 60px 48px; text-align: center; margin-bottom: 40px;
+    }
+    .cta-section h2 { font-family: 'Montserrat', sans-serif; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; color: hsl(var(--brand-anthracite)); margin-bottom: 14px; }
+    .cta-section p { color: hsl(var(--brand-medium-gray)); font-size: 1.05rem; margin-bottom: 32px; }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-cta-main {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--futur-gradient-primary); color: #fff;
+      font-weight: 700; font-size: 1rem; padding: 16px 32px; border-radius: 14px;
+      text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 32px hsl(218 100% 45% / 0.3);
+    }
+    .btn-cta-main:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+    .btn-cta-call {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: linear-gradient(135deg, #22c55e, #059669);
+      color: #fff; font-weight: 700; font-size: 1rem; padding: 16px 32px;
+      border-radius: 14px; text-decoration: none; transition: all 0.3s;
+    }
+    .btn-cta-call:hover { transform: translateY(-3px); }
+    .breadcrumb { display: flex; gap: 8px; align-items: center; justify-content: center; margin-bottom: 20px; animation: fadeInUp 0.6s ease; }
+    .breadcrumb a { color: rgba(255,255,255,0.7); font-size: 0.88rem; text-decoration: none; transition: color 0.2s; }
+    .breadcrumb a:hover { color: #fff; }
+    .breadcrumb span { color: rgba(255,255,255,0.4); font-size: 0.88rem; }
+    .breadcrumb .current { color: rgba(255,255,255,0.9); font-size: 0.88rem; }
+    .included-section { margin-bottom: 80px; }
+    .included-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media(max-width:600px){ .included-grid { grid-template-columns: 1fr; } }
+    .included-item {
+      display: flex; align-items: flex-start; gap: 14px;
+      background: hsl(216 20% 97%); border-radius: 14px; padding: 18px 20px;
+      border: 1px solid hsl(var(--brand-royal-blue) / 0.08); transition: all 0.25s;
+    }
+    .included-item:hover { background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+    .check-icon { width: 22px; height: 22px; flex-shrink: 0; margin-top: 1px; stroke: hsl(var(--brand-tech-cyan)); }
+    .included-item span { font-size: 0.92rem; color: hsl(var(--brand-anthracite)); font-weight: 500; line-height: 1.5; }
+    .site-footer { background: hsl(var(--brand-deep-blue)); color: #fff; padding: 48px 2rem 32px; }
+    .footer-inner { max-width: 1440px; margin: 0 auto; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; margin-bottom: 40px; }
+    @media(max-width:768px){ .footer-top { grid-template-columns: 1fr; gap: 32px; } }
+    .footer-brand img { height: 44px; margin-bottom: 16px; }
+    .footer-brand p { color: rgba(255,255,255,0.7); font-size: 0.88rem; line-height: 1.65; }
+    .footer-col h4 { font-family: 'Montserrat', sans-serif; font-size: 0.95rem; font-weight: 700; color: hsl(195 100% 55%); margin-bottom: 16px; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-col ul li a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.87rem; transition: color 0.2s; }
+    .footer-col ul li a:hover { color: #fff; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .footer-bottom p { font-size: 0.82rem; color: rgba(255,255,255,0.5); }
+    @media(max-width:768px){
+      .nav-links, .nav-cta { display: none; }
+      .features-grid { grid-template-columns: 1fr; }
+      .steps-grid { grid-template-columns: 1fr; }
+      .process-section { padding: 40px 24px; }
+      .cta-section { padding: 40px 24px; }
+      .page-content { padding: 48px 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/98 backdrop-blur-xl border-b border-brand-royal-blue/10 shadow-futur">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between h-20">
+      <div class="flex items-center space-x-6">
+        <a class="flex-shrink-0 transition-transform hover:scale-105 duration-300" href="../index.html"><img src="../assets/futur-toiture-logo-D2vatSlf.png" alt="Futur Toiture - Couvreur professionnel" class="h-14 w-auto drop-shadow-lg"></a>
+        <div class="hidden lg:flex items-center space-x-3">
+          <div class="flex items-center space-x-1 bg-green-50 px-3 py-1.5 rounded-full border border-green-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-shield w-4 h-4 text-green-600"><path d="M12 1 3 5v7c0 6 4 11.5 9 12.5 5-1 9-6.5 9-12.5V5z"/></svg><span class="text-xs font-medium text-green-800">Garantie décennale</span></div>
+          <div class="flex items-center space-x-1 bg-blue-50 px-3 py-1.5 rounded-full border border-blue-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-award w-4 h-4 text-blue-600"><path d="m15.5 12.9 1.5 8.5a.5.5 0 0 1-.8.5l-3.6-2.7a1 1 0 0 0-1.2 0l-3.6 2.7a.5.5 0 0 1-.8-.5l1.5-8.5"/><circle cx="12" cy="8" r="6"/></svg><span class="text-xs font-medium text-blue-800">Google certifié</span></div>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center space-x-10"><a class="relative text-base font-semibold transition-all duration-300 hover:scale-105 text-brand-anthracite hover:text-brand-royal-blue" href="../index.html">Accueil</a><a class="relative text-base font-semibold transition-all duration-300 hover:scale-105 text-brand-anthracite hover:text-brand-royal-blue" href="../renovation-toiture.html">Rénovation</a><a class="relative text-base font-semibold transition-all duration-300 hover:scale-105 text-brand-anthracite hover:text-brand-royal-blue" href="../urgence-fuite-toiture.html">Urgence</a><a class="relative text-base font-semibold transition-all duration-300 hover:scale-105 text-brand-royal-blue after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gradient-to-r after:from-brand-royal-blue after:to-brand-tech-cyan after:rounded-full" href="../autres-services.html">Autres services</a></nav>
+      <div class="hidden md:flex items-center space-x-3">
+        <div class="flex flex-col items-center"><a href="tel:+33780971996" class="btn-phone shadow-lg hover:shadow-glow" aria-label="Appeler Futur Toiture"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-phone w-4 h-4 mr-2"><path d="M22 16.9v3c0 1.1-.9 2-2 2a19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.3 4.1 2 2 0 0 1 4.1 2h3c1.1 0 2 .9 2 2 0 .2 0 .5.1.7a12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7c.2 0 .5.1.7.1 1.1 0 2 .9 2 2z"/></svg>07 80 97 19 96</a><span class="text-xs text-brand-medium-gray mt-1 font-medium">Appel gratuit</span></div><a href="../index.html#diagnostic" class="btn-primary shadow-lg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-file-text w-4 h-4 mr-2"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8zm-1 2 5 5h-5zM8 13h8v2H8zm0 4h8v2H8zm0-8h3v2H8z"/></svg>Devis gratuit</a>
+      </div>
+      <div class="md:hidden flex items-center space-x-3"><a href="tel:+33780971996" class="btn-phone text-sm px-4 py-2.5 shadow-lg hover:shadow-glow" aria-label="Appeler Futur Toiture"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-phone w-4 h-4 mr-2"><path d="M22 16.9v3c0 1.1-.9 2-2 2a19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.3 4.1 2 2 0 0 1 4.1 2h3c1.1 0 2 .9 2 2 0 .2 0 .5.1.7a12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7c.2 0 .5.1.7.1 1.1 0 2 .9 2 2z"/></svg>Appeler</a><button type="button" class="inline-flex items-center justify-center p-3 rounded-2xl text-brand-anthracite hover:text-brand-royal-blue hover:bg-brand-light-gray/50 focus:outline-none focus:ring-2 focus:ring-brand-tech-cyan transition-all duration-300 hover:scale-105"><span class="sr-only">Ouvrir le menu principal</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-menu block h-6 w-6" aria-hidden="true"><rect x="3" y="5" width="18" height="2" rx="1"/><rect x="3" y="11" width="18" height="2" rx="1"/><rect x="3" y="17" width="18" height="2" rx="1"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="service-hero">
+  <div class="hero-content">
+    <div class="breadcrumb"><a href="../index.html">Accueil</a><span>›</span><a href="../autres-services.html">Services</a><span>›</span><span class="current">Installation de Velux</span></div>
+    <div class="hero-badge"><span class="dot"></span>Service professionnel certifié</div>
+    <h1>Installation de <span>Velux</span></h1>
+    <p class="hero-desc">Installation de fenêtres de toit Velux pour apporter lumière naturelle et améliorer l'aération de vos combles. Partenaire agréé Velux, installation standard ou sur mesure.</p>
+    <div class="hero-actions">
+      <a href="tel:+33780971996" class="btn-hero-primary"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.9v3c0 1.1-.9 2-2 2a19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.3 4.1 2 2 0 0 1 4.1 2h3c1.1 0 2 .9 2 2 0 .2 0 .5.1.7a12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7c.2 0 .5.1.7.1 1.1 0 2 .9 2 2z"/></svg>Appeler maintenant</a>
+      <a href="../index.html#diagnostic" class="btn-hero-outline"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8zm-1 2 5 5h-5z"/></svg>Devis gratuit</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">24h</div><div class="label">Réponse garantie</div></div>
+      <div class="hero-stat"><div class="num">70km</div><div class="label">Zone Alès - Gard</div></div>
+      <div class="hero-stat"><div class="num">10+</div><div class="label">Années d'expérience</div></div>
+      <div class="hero-stat"><div class="num">100%</div><div class="label">Devis gratuit</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="page-content">
+  <section class="features-section">
+    <div class="section-tag">Notre expertise</div>
+    <h2 class="section-title">Un service <span>professionnel et complet</span></h2>
+    <p class="section-desc">Notre équipe de couvreurs certifiés met tout son savoir-faire à votre service pour des résultats durables et de qualité.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-card-header">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1 3 5v7c0 6 4 11.5 9 12.5 5-1 9-6.5 9-12.5V5z"/></svg></div>
+          <h3>Partenaire agréé Velux</h3>
+        </div>
+        <p>Installateur certifié par Velux, garantissant une pose conforme aux normes fabricant et le maintien de la garantie produit.</p>
+      </div>      <div class="feature-card">
+        <div class="feature-card-header">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 7c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 2c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3zM11 1h2v3h-2zm0 19h2v3h-2zM1 11h3v2H1zm19 0h3v2h-3zM4.2 5.6l2.1-2.1 1.4 1.4-2.1 2.1zm12.1 12.1 2.1-2.1 1.4 1.4-2.1 2.1zM5.6 19.8l-2.1-2.1 1.4-1.4 2.1 2.1zm12.1-12.1-2.1-2.1 1.4-1.4 2.1 2.1z"/></svg></div>
+          <h3>Velux standard ou sur mesure</h3>
+        </div>
+        <p>Choix dans toute la gamme Velux : tailles standard, sur mesure ou à toits plats pour s'adapter à votre configuration de toiture.</p>
+      </div>      <div class="feature-card">
+        <div class="feature-card-header">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C7.5 8 3.5 12.5 3.5 16.5c0 4.7 3.8 8.5 8.5 8.5s8.5-3.8 8.5-8.5C20.5 12.5 16.5 8 12 2z"/></svg></div>
+          <h3>Étanchéité parfaite garantie</h3>
+        </div>
+        <p>Raccord d'étanchéité professionnel autour de chaque fenêtre de toit pour éviter toute infiltration d'eau.</p>
+      </div>      <div class="feature-card">
+        <div class="feature-card-header">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 3 14h6l-1 8 10-12h-6l1-8z"/></svg></div>
+          <h3>Motorisation et volets disponibles</h3>
+        </div>
+        <p>Options motorisation électrique, volets roulants occultants ou pare-soleil pour un confort et une isolation thermique optimaux.</p>
+      </div>      <div class="feature-card">
+        <div class="feature-card-header">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1 9 5v9c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4V5zm-1 13h2v2h-2zm-1 4h4v2h-4z"/></svg></div>
+          <h3>Isolation thermique renforcée</h3>
+        </div>
+        <p>Intégration d'une isolation périphérique pour éviter les ponts thermiques et optimiser les performances énergétiques.</p>
+      </div>      <div class="feature-card">
+        <div class="feature-card-header">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.5 14-4-4 1.5-1.5 2.5 2.5 5.5-5.5 1.5 1.5z"/></svg></div>
+          <h3>Amélioration du confort</h3>
+        </div>
+        <p>Lumière naturelle, ventilation naturelle et vue sur le ciel pour transformer vos combles en espace de vie agréable.</p>
+      </div>    </div>
+  </section>
+  <section class="included-section">
+    <div class="section-tag">Inclus dans chaque prestation</div>
+    <h2 class="section-title">Ce qui est <span>inclus</span></h2>
+    <p class="section-desc">Chaque prestation comprend un ensemble de services pour assurer votre entière satisfaction.</p>
+    <div class="included-grid">
+      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Conseil personnalisé sur le choix du modèle</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Pose par installateur certifié Velux</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Raccord d'étanchéité professionnel</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Isolation périphérique anti-ponts thermiques</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Options motorisation et volets disponibles</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Finition intérieure soignée</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Nettoyage complet du chantier</span>
+      </div>      <div class="included-item">
+        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+        <span>Garantie fabricant Velux maintenue</span>
+      </div>    </div>
+  </section>
+  <section class="process-section">
+    <div class="section-tag" style="background:rgba(255,255,255,0.12);color:#fff;border-color:rgba(255,255,255,0.2);">Notre processus</div>
+    <h2 class="section-title">Comment nous <span>travaillons</span></h2>
+    <p class="section-desc">Un processus simple, transparent et efficace de la prise de contact jusqu'à la livraison de votre chantier.</p>
+    <div class="steps-grid">
+      <div class="step-card"><div class="step-number">1</div><h4>Prise de contact</h4><p>Appelez-nous ou demandez un devis en ligne. Nous vous rappelons sous 2h.</p></div>
+      <div class="step-card"><div class="step-number">2</div><h4>Devis gratuit</h4><p>Un expert se déplace pour évaluer votre projet et vous remettre un devis précis.</p></div>
+      <div class="step-card"><div class="step-number">3</div><h4>Réalisation</h4><p>Nos équipes interviennent avec soin, dans les délais convenus et selon les règles de l'art.</p></div>
+      <div class="step-card"><div class="step-number">4</div><h4>Réception</h4><p>Vérification finale avec vous pour votre entière satisfaction. Garantie décennale remise.</p></div>
+    </div>
+  </section>
+  <section class="cta-section">
+    <h2>Prêt à démarrer votre projet ?</h2>
+    <p>Contactez-nous dès aujourd'hui pour un devis gratuit sous 24h. 7j/7 dans tout le Gard (30) et alentours.</p>
+    <div class="cta-buttons">
+      <a href="../index.html#diagnostic" class="btn-cta-main"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8zm-1 2 5 5h-5z"/></svg>Devis gratuit</a>
+      <a href="tel:+33780971996" class="btn-cta-call"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.9v3c0 1.1-.9 2-2 2a19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.3 4.1 2 2 0 0 1 4.1 2h3c1.1 0 2 .9 2 2 0 .2 0 .5.1.7a12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7c.2 0 .5.1.7.1 1.1 0 2 .9 2 2z"/></svg>07 80 97 19 96</a>
+    </div>
+  </section>
+</div>
+
+<footer class="site-footer bg-slate-900 text-white py-12 border-t border-slate-800">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="space-y-6"><img src="../assets/futur-toiture-logo-D2vatSlf.png" alt="Futur Toiture" class="h-12 w-auto"><p class="text-blue-100/70 text-sm leading-relaxed">Couvreur professionnel à Alès. Rénovation, réparation d'urgence, démoussage. Devis gratuit sous 24h. Intervention rapide et garantie décennale.</p></div>
+      <div><h4 class="text-lg font-semibold mb-4 text-brand-light-blue">Contact</h4><div class="space-y-3"><a href="tel:+33780971996" class="flex items-center text-blue-100 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-phone w-4 h-4 mr-3 text-brand-light-blue"><path d="M22 16.9v3c0 1.1-.9 2-2 2a19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.3 4.1 2 2 0 0 1 4.1 2h3c1.1 0 2 .9 2 2 0 .2 0 .5.1.7a12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7c.2 0 .5.1.7.1 1.1 0 2 .9 2 2z"/></svg><span>07 80 97 19 96</span></a><a href="mailto:futurtoiture1@gmail.com" class="flex items-center text-blue-100 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-mail w-4 h-4 mr-3 text-brand-light-blue"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-9 5.7c-.6.4-1.4.4-2 0L2 7"/></svg><span>futurtoiture1@gmail.com</span></a><a href="https://www.google.com/maps/place/36B+Chem.+des+Caves,+30340+Al%C3%A8s/" target="_blank" rel="noopener noreferrer" class="flex items-center text-blue-100 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-map-pin w-4 h-4 mr-3 text-brand-light-blue"><path d="M20 10c0 5-5.5 10.2-7.4 11.8a1 1 0 0 1-1.2 0C9.5 20.2 4 15 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><span>36B Chem. des Caves, 30340 Alès</span></a></div></div>
+      <div><h4 class="text-lg font-semibold mb-4 text-brand-light-blue">Nos Services</h4><ul class="space-y-2"><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="../renovation-toiture.html">Rénovation de toiture</a></li><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="../urgence-fuite-toiture.html">Réparation d'urgence</a></li><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="inspection-toitures.html">Inspection de toitures</a></li><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="installation-gouttieres.html">Installation gouttières</a></li><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="installation-velux.html">Installation Velux</a></li><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="zinguerie.html">Travaux de Zinguerie</a></li><li><a class="text-blue-100 hover:text-white transition-colors text-sm" href="isolation-toiture.html">Isolation de toiture</a></li></ul></div>
+      <div><h4 class="text-lg font-semibold mb-4 text-brand-light-blue">Zone d'intervention</h4><div class="text-blue-100 text-sm space-y-1"><p class="font-medium text-white">Alès et alentours :</p><p>Nîmes, Montpellier</p><p>Uzès, Bagnols-sur-Cèze</p><p>Villeneuve-lès-Avignon</p><p>Anduze, Saint-Hippolyte-du-Fort</p><p class="text-xs italic mt-2">Intervention dans un rayon de 70km</p></div></div>
+    </div>
+    <div class="border-t border-blue-800 mt-8 pt-8"><div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0"><div class="flex flex-wrap items-center justify-center lg:justify-start space-x-6 text-sm"><a class="text-blue-100 hover:text-white transition-colors" href="../mentions-legales.html">Mentions légales</a><a class="text-blue-100 hover:text-white transition-colors" href="../politique-confidentialite.html">Politique de confidentialité</a><a href="https://www.google.com/maps/place/Couvreur+Winaud+-+Couvreur+Al%C3%A8s" target="_blank" rel="noopener noreferrer" class="flex items-center text-blue-100 hover:text-white transition-colors"><span>Avis Google</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-external-link w-3 h-3 ml-1"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h6"/></svg></a></div><div class="text-blue-200 text-sm text-center lg:text-right flex flex-col lg:flex-row lg:items-center space-y-2 lg:space-y-0 lg:space-x-4"><img src="../assets/futur-toiture-logo-D2vatSlf.png" alt="Futur Toiture" class="h-8 w-auto object-contain mx-auto lg:mx-0"><div><p>© 2025 Futur Toiture - Couvreur professionnel</p><p class="text-xs">SIRET: 53205005100020 | RC Pro | Garantie décennale</p></div></div></div></div>
+  </div>
+</footer>
+
+<div class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-white/98 backdrop-blur-xl border-t border-brand-royal-blue/20 shadow-futur">
+  <div class="space-y-2 p-2">
+    <div class="grid grid-cols-2 h-16 gap-2">
+      <a href="tel:+33780971996" class="flex flex-col items-center justify-center bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-sm rounded-2xl hover:shadow-glow active:scale-95 transition-all duration-300 shadow-lg"><div class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-phone w-4 h-4 mr-1.5"><path d="M22 16.9v3c0 1.1-.9 2-2 2a19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.3 4.1 2 2 0 0 1 4.1 2h3c1.1 0 2 .9 2 2 0 .2 0 .5.1.7a12.8 12.8 0 0 0 .7 2.8 2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5 12.8 12.8 0 0 0 2.8.7c.2 0 .5.1.7.1 1.1 0 2 .9 2 2z"/></svg><span class="text-sm">Appeler</span></div><span class="text-xs opacity-80">Appel gratuit</span></a>
+      <a href="../index.html#diagnostic" class="flex items-center justify-center rounded-2xl font-bold text-sm hover:shadow-hover active:scale-95 transition-all duration-300 text-white relative overflow-hidden shadow-lg" style="background: var(--futur-gradient-primary);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-file-text w-4 h-4 mr-1.5"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8zm-1 2 5 5h-5z"/></svg><span class="text-sm">Devis gratuit</span><div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] skew-x-12 transition-transform duration-700 hover:translate-x-[100%]"></div></a>
+    </div>
+    <div class="flex justify-center space-x-2 px-2 pb-1">
+      <div class="flex items-center space-x-1 bg-green-50 px-2 py-1 rounded-full border border-green-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-shield w-3 h-3 text-green-600"><path d="M12 1 3 5v7c0 6 4 11.5 9 12.5 5-1 9-6.5 9-12.5V5z"/></svg><span class="text-xs font-medium text-green-800">Garantie 10ans</span></div>
+      <div class="flex items-center space-x-1 bg-blue-50 px-2 py-1 rounded-full border border-blue-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="lucide lucide-award w-3 h-3 text-blue-600"><path d="m15.5 12.9 1.5 8.5a.5.5 0 0 1-.8.5l-3.6-2.7a1 1 0 0 0-1.2 0l-3.6 2.7a.5.5 0 0 1-.8-.5l1.5-8.5"/><circle cx="12" cy="8" r="6"/></svg><span class="text-xs font-medium text-blue-800">40+ avis Google</span></div>
+    </div>
+  </div>
+</div>
+
+<script src="../embed/v1/index.html" async=""></script>
+<script src="../assets/js/interactions.js" defer></script>
+</body>
+</html>
