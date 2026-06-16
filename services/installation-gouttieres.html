@@ -204,6 +204,39 @@
     .included-item:hover { background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
     .check-icon { width: 22px; height: 22px; flex-shrink: 0; margin-top: 1px; stroke: hsl(var(--brand-tech-cyan)); }
     .included-item span { font-size: 0.92rem; color: hsl(var(--brand-anthracite)); font-weight: 500; line-height: 1.5; }
+    .gallery-section { margin-bottom: 80px; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    @media(max-width:900px){ .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media(max-width:600px){ .gallery-grid { grid-template-columns: 1fr; } }
+    .gallery-card {
+      background: #fff; border-radius: 20px; overflow: hidden;
+      border: 1px solid hsl(var(--brand-royal-blue) / 0.1);
+      transition: all 0.35s ease; box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      cursor: pointer;
+    }
+    .gallery-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); }
+    .gallery-image {
+      height: 200px; overflow: hidden; position: relative;
+    }
+    .gallery-image::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.15), transparent 50%);
+    }
+    .gallery-image img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .gallery-card:hover .gallery-image img { transform: scale(1.08); }
+    .gallery-content {
+      padding: 18px 20px 22px;
+    }
+    .gallery-content h4 {
+      font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 700;
+      color: hsl(var(--brand-anthracite)); margin-bottom: 6px;
+    }
+    .gallery-content p {
+      font-size: 0.85rem; color: hsl(var(--brand-medium-gray)); line-height: 1.5;
+    }
     .site-footer { background: hsl(var(--brand-deep-blue)); color: #fff; padding: 48px 2rem 32px; }
     .footer-inner { max-width: 1440px; margin: 0 auto; }
     .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; margin-bottom: 40px; }
@@ -312,6 +345,39 @@
         <p>Chaque installation est couverte par notre garantie. Nous assurons un suivi et service après-vente réactif pour votre tranquillité.</p>
       </div>    </div>
   </section>
+
+  <section class="gallery-section">
+    <div class="section-tag">Nos réalisations</div>
+    <h2 class="section-title">Découvrez <span>nos projets</span></h2>
+    <p class="section-desc">Un aperçu de notre savoir-faire à travers nos chantiers récents dans le Gard et alentours.</p>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <div class="gallery-image"><img src="../assets/hero-renovation-Du0P25_j.jpg" alt="Rénovation complète de toiture" loading="lazy"></div>
+        <div class="gallery-content"><h4>Rénovation complète</h4><p>Transformation totale de toiture avec charpente neuve et couverture tuiles.</p></div>
+      </div>
+      <div class="gallery-card">
+        <div class="gallery-image"><img src="../assets/chantier-charpente-CxZLnn1L.webp" alt="Charpente traditionnelle" loading="lazy"></div>
+        <div class="gallery-content"><h4>Charpente neuve</h4><p>Structure bois traditionnelle assemblée dans les règles de l'art.</p></div>
+      </div>
+      <div class="gallery-card">
+        <div class="gallery-image"><img src="../assets/travaux-tuiles-pro-CGYiIDxj.webp" alt="Pose de tuiles professionnelle" loading="lazy"></div>
+        <div class="gallery-content"><h4>Pose de tuiles</h4><p>Couverture haut de gamme en tuiles terre cuite ou ardoises naturelles.</p></div>
+      </div>
+      <div class="gallery-card">
+        <div class="gallery-image"><img src="../assets/etancheite-toiture-BoHIUlIj.webp" alt="Étanchéité toiture garantie" loading="lazy"></div>
+        <div class="gallery-content"><h4>Étanchéité garantie</h4><p>Protection durable contre les infiltrations et les intempéries.</p></div>
+      </div>
+      <div class="gallery-card">
+        <div class="gallery-image"><img src="../assets/renovation-toiture-pro-DW_UCQUP.webp" alt="Installation Velux" loading="lazy"></div>
+        <div class="gallery-content"><h4>Installation Velux</h4><p>Apportez lumière naturelle et confort à vos combles aménagés.</p></div>
+      </div>
+      <div class="gallery-card">
+        <div class="gallery-image"><img src="../assets/chantier-propre-pro-DFRsqp1K.webp" alt="Chantier propre et soigné" loading="lazy"></div>
+        <div class="gallery-content"><h4>Chantier soigné</h4><p>Respect de votre propriété avec nettoyage complet après chaque intervention.</p></div>
+      </div>
+    </div>
+  </section>
+
   <section class="included-section">
     <div class="section-tag">Inclus dans chaque prestation</div>
     <h2 class="section-title">Ce qui est <span>inclus</span></h2>
