@@ -26,13 +26,14 @@
     body { font-family: 'Inter', sans-serif; background: #fff; color: hsl(var(--brand-anthracite)); }
     .service-hero {
       min-height: 480px;
-      background: linear-gradient(135deg, hsl(228 85% 8%) 0%, hsl(218 100% 45%) 60%, hsl(180 100% 45%) 100%);
       position: relative; display: flex; align-items: center; overflow: hidden; padding-top: 80px;
+      background-size: cover; background-position: center; background-repeat: no-repeat;
     }
     .service-hero::before {
       content: ''; position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 70% 50%, hsl(180 100% 45% / 0.18) 0%, transparent 60%),
-                  radial-gradient(ellipse at 20% 80%, hsl(218 100% 45% / 0.15) 0%, transparent 50%);
+      background: linear-gradient(135deg, hsl(228 85% 8% / 0.88) 0%, hsl(218 100% 45% / 0.75) 60%, hsl(180 100% 45% / 0.65) 100%),
+                  radial-gradient(ellipse at 70% 50%, hsl(180 100% 45% / 0.12) 0%, transparent 60%),
+                  radial-gradient(ellipse at 20% 80%, hsl(218 100% 45% / 0.1) 0%, transparent 50%);
     }
     .service-hero::after {
       content: ''; position: absolute; width: 600px; height: 600px; border-radius: 50%;
@@ -248,7 +249,7 @@
   </div>
 </header>
 
-<section class="service-hero">
+<section class="service-hero" style="background-image: url('../assets/travaux-tuiles-pro-CGYiIDxj.webp');">
   <div class="hero-content">
     <div class="breadcrumb"><a href="../index.html">Accueil</a><span>›</span><a href="../autres-services.html">Services</a><span>›</span><span class="current">Réparation de Toitures</span></div>
     <div class="hero-badge"><span class="dot"></span>Service professionnel certifié</div>
