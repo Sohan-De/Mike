@@ -196,7 +196,7 @@
     .included-section { margin-bottom: 80px; }
     .showcase-section { margin-bottom: 80px; padding: 0 0; }
     .showcase-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
-    @media(max-width:768px){ .showcase-grid { grid-template-columns: 1fr; gap: 32px; } .showcase-content { text-align: center; } .showcase-content .section-tag { margin: 0 auto 16px auto; } .showcase-list li { justify-content: center; } }
+    @media(max-width:768px){ .showcase-grid { grid-template-columns: 1fr; gap: 32px; } }
     .showcase-content { padding-right: 0; }
     .showcase-image { position: relative; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-hover); }
     .showcase-image img { width: 100%; height: 400px; object-fit: cover; display: block; transition: transform 0.5s ease; }
@@ -239,6 +239,7 @@
       .process-section { padding: 40px 24px; }
       .cta-section { padding: 40px 24px; }
       .page-content { padding: 48px 1.25rem; }
+      .showcase-tag { margin-left: auto !important; margin-right: auto !important; }
     }
   </style>
 </head>
@@ -332,7 +333,7 @@
   <section class="showcase-section">
     <div class="showcase-grid">
       <div class="showcase-content">
-        <div class="section-tag" style="margin-left:0;margin-right:auto">Pourquoi nous choisir</div>
+        <div class="section-tag showcase-tag" style="margin-left:0;margin-right:auto">Pourquoi nous choisir</div>
         <h2 class="showcase-title">Des <span>résultats</span> qui parlent d'eux-mêmes</h2>
         <p class="showcase-desc">Amélioration de l'isolation thermique de votre toiture pour réduire vos factures énergétiques et améliorer le confort. Combles perdus, rampants, sarking. Garantie 10 ans.</p>
         <ul class="showcase-list">
