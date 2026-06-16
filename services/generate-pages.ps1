@@ -180,7 +180,7 @@ function Generate-Page {
     .features-section { margin-bottom: 80px; }
     .section-tag {
       display: flex; align-items: center; gap: 8px;
-      width: fit-content; margin: 0 auto 16px auto;
+      width: fit-content; margin: 0 auto 16px 0;
       background: hsl(var(--brand-royal-blue) / 0.08); color: hsl(var(--brand-royal-blue));
       border: 1px solid hsl(var(--brand-royal-blue) / 0.2); border-radius: 100px; padding: 5px 14px;
       font-size: 12px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
