@@ -267,7 +267,7 @@ function Generate-Page {
     .included-section { margin-bottom: 80px; }
     .showcase-section { margin-bottom: 80px; padding: 0 0; }
     .showcase-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
-    @media(max-width:768px){ .showcase-grid { grid-template-columns: 1fr; gap: 32px; } }
+    @media(max-width:768px){ .showcase-grid { grid-template-columns: 1fr; gap: 32px; } .showcase-content { text-align: center; } .showcase-content .section-tag { margin: 0 auto 16px auto; } .showcase-list li { justify-content: center; } }
     .showcase-content { padding-right: 0; }
     .showcase-image { position: relative; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-hover); }
     .showcase-image img { width: 100%; height: 400px; object-fit: cover; display: block; transition: transform 0.5s ease; }
