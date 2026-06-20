@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // ==========================================
     // MOBILE NAVIGATION DRAWER
     // ==========================================
-    const menuButton = document.querySelector('div.md\\:hidden button') || document.querySelector('button[aria-label="Ouvrir le menu principal"]');
+    const menuButton = document.querySelector('div.lg\\:hidden button') || document.querySelector('button[aria-label="Ouvrir le menu principal"]');
 
     if (menuButton) {
         // 1. Create the Overlay (Backdrop)
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
         linksContainer.className = 'flex flex-col space-y-4 overflow-y-auto flex-1 pt-4';
 
         // Clone links from desktopNav
-        const desktopNav = document.querySelector('nav.hidden.md\\:flex');
+        const desktopNav = document.querySelector('nav.hidden.lg\\:flex');
         if (desktopNav) {
             const originalLinks = desktopNav.querySelectorAll('a');
             originalLinks.forEach(link => {
